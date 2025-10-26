@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>KaloudasDev</title>
+    <link rel="icon" type="image/webp" href="./assets/tab/logo.webp">
+    <link rel="shortcut icon" href="./assets/tab/logo.webp">
+    <link rel="apple-touch-icon" href="./assets/tab/logo.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon" id="themeIcon"></i>
+    </div>
+
+    <div class="particles-container" id="particles-js"></div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">KaloudasDev</a>
+                
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Crafting <span class="highlight">Quality Through</span> Coding</h1>
+                <p class="hero-subtitle">Specializing in Discord Bots, FiveM Scripts, and immersive web experiences with cutting-edge innovative technology.</p>
+                
+                <div class="tech-stack">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="tech-item">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </a>
+                    <a href="https://www.lua.org/" target="_blank" class="tech-item">
+                        <i class="fas fa-code"></i>
+                        <span>Lua</span>
+                    </a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </a>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary" id="download-cv">
+                        <span>Download CV</span>
+                        <div class="btn-hover-effect"></div>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <div class="btn-hover-effect"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <div class="code-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-red"></span>
+                            <span class="btn-yellow"></span>
+                            <span class="btn-green"></span>
+                        </div>
+                        <span class="terminal-title">kaloudasdev@portfolio:~</span>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command">npm run dev</span>
+                        </div>
+                        <div class="terminal-line output">
+                            <span>> Starting development server...</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command">git status</span>
+                        </div>
+                        <div class="terminal-line output">
+                            <span>>  All systems operational</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command typing">node --version</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">I am a dedicated developer specializing in creating sophisticated Discord Bots and FiveM Scripts that enhance user experiences and streamline interactions.</p>
+                    <p>With extensive expertise in JavaScript and Lua, I develop robust solutions that combine excellence with intuitive design. My approach focuses on writing clean, maintainable code that stands the test of time.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Enterprise Security</h4>
+                                <p>Implementing secure coding practices and protection mechanisms.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>High Performance</h4>
+                                <p>Optimized solutions for maximum efficiency and speed performance.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>User Centric Design</h4>
+                                <p>Creating intuitive and engaging interfaces that prioritize user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 data-count="50">0</h3>
+                            <p>Completed Projects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 data-count="3">0</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Technical <span class="highlight">Expertise</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                </div>
+                <p>Advanced Discord bot development with modern ES6+ features for creating highly interactive web applications and innovative digital solutions and integrated systems.</p>
+                <div class="skill-level">
+                    <div class="level-bar">
+                        <div class="level-progress" data-level="95"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Lua</h3>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+                <p>Professional FiveM script development creating custom gameplay systems and comprehensive server enhancement solutions with advanced modifications.</p>
+                <div class="skill-level">
+                    <div class="level-bar">
+                        <div class="level-progress" data-level="90"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>HTML5</h3>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+                <p>Semantic markup and modern HTML5 features for creating highly accessible and friendly applications and responsive development using progressive enchance.</p>
+                <div class="skill-level">
+                    <div class="level-bar">
+                        <div class="level-progress" data-level="88"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>CSS3</h3>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                </div>
+                <p>Advanced styling with CSS3 animations and responsive design principles for modern web interfaces and optimized user experience design work requires detail.</p>
+                <div class="skill-level">
+                    <div class="level-bar">
+                        <div class="level-progress" data-level="85"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Discord.js</h3>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                </div>
+                <p>Expert-level Discord bot development with advanced features and comprehensive integration capabilities for efficient community management automation.</p>
+                <div class="skill-level">
+                    <div class="level-bar">
+                        <div class="level-progress" data-level="92"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>FiveM API</h3>
+                        <span class="skill-percent">60%</span>
+                    </div>
+                </div>
+                <p>Comprehensive understanding of FiveM API for creating highly immersive and engaging gaming experiences with custom features and advanced functionality.</p>
+                <div class="skill-level">
+                    <div class="level-bar">
+                        <div class="level-progress" data-level="88"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/projects/portfolioLinkhub.webp') center/cover no-repeat !important;">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/KaloudasDev/kaloudasdev-links" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://kaloudasdev.github.io/kaloudasdev-links/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Web App</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Professional Portfolio Hub</h3>
+                    <p>Modern dark theme portfolio link hub with responsive design, smooth animations, optimized layout for all supported devices and browsers, and enhanced experience.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/projects/taskManagement.webp') center/cover no-repeat !important;">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/KaloudasDev/task-management" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                          
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Web App</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Enterprise Task Management</h3>
+                    <p>Comprehensive task management system with secure role-based access, real-time analytics, file management, automated workflow and team collaboration process.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/projects/scientificCalculator.webp') center/cover no-repeat !important;">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/KaloudasDev/scientific-calculator" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://kaloudasdev.github.io/scientific-calculator/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Web App</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Scientific Calculator</h3>
+                    <p>Advanced scientific calculator with 200+ mathematical functions, statistical analysis, programming operations, modern user interface and TypeScript implementation.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="experience">
+    <div class="container">
+        <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="company-logo">
+                        <img src="./assets/servers/devastateRoleplay.webp" alt="Devastate Roleplay" class="company-photo">
+                    </div>
+                    <div class="company-info">
+                        <h4>Devastate Roleplay</h4>
+                        <p>Co-Owner & Bot Developer</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <p>Co-owned this popular Greek Minecraft server with significant community growth. Developed custom Discord bots and managed server technical operations.</p>
+                </div>
+                <div class="tech-stats">
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="company-logo">
+                        <img src="./assets/servers/caveRoleplay.webp" alt="Cave Roleplay" class="company-photo">
+                    </div>
+                    <div class="company-info">
+                        <h4>Cave Roleplay</h4>
+                        <p>Co-Owner</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <p>Co-founded this established Greek Minecraft server with extensive community engagement. Specialized in Discord bot development and server infrastructure.</p>
+                </div>
+                <div class="tech-stats">
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="company-logo">
+                        <img src="./assets/servers/crownRoleplay.webp" alt="Crown Roleplay" class="company-photo">
+                    </div>
+                    <div class="company-info">
+                        <h4>Crown Roleplay</h4>
+                        <p>Head Developer</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <p>Led development as Head Developer for this advanced FiveM server. Built custom systems, optimized performance, and managed technical infrastructure.</p>
+                </div>
+                <div class="tech-stats">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Build Something Exceptional</h3>
+                    <p>I'm currently available for freelance work or exciting opportunities.<br>Reach out to discuss how we can bring your ideas to life together.</p>
+                    <div class="contact-methods">
+                            <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Discord</h4>
+                                <p>kaloudasdev</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>kaloudasdev@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Greece · Available Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/KaloudasDev" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://discordlookup.com/user/1069279857072160921" target="_blank" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="https://ko-fi.com/kaloudas" target="_blank" class="social-link">
+                            <i class="fas fa-mug-hot"></i>
+                        </a>
+                    </div>
+                </div>
+              <form action="https://formspree.io/f/mwpwpkkz" method="POST" class="contact-form">
+            <input type="hidden" name="_subject" value="New Message from Portfolio">
+         <input type="text" name="_gotcha" style="display:none">
+        <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="Full Name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="Email Address" placeholder="Enter your email address" required>
+        </div>
+        <div class="form-group">
+        <label for="message">Project Details</label>
+        <textarea id="message" name="Project Details" placeholder="Tell me about your project" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">
+        <span>Send Message</span>
+        <div class="btn-hover-effect"></div>
+          </button>
+          </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <a href="#home" class="logo">KaloudasDev</a>
+                    <p>Creating digital excellence and<br>through innovative code solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Consulting</a></li>
+                            <li><a href="#">Discord Bots</a></li>
+                            <li><a href="#">FiveM Scripts</a></li>
+                            <li><a href="#">Web Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://github.com/KaloudasDev" target="_blank">GitHub</a></li>
+                            <li><a href="https://discordlookup.com/user/1069279857072160921" target="_blank">Discord</a></li>
+                            <li><a href="https://ko-fi.com/kaloudas" target="_blank">Ko-fi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 KaloudasDev – The Engine Behind Your Digital Experience.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
